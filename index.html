@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="https://bcw.blob.core.windows.net/public/img/9977764104160066">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.1.96/css/materialdesignicons.min.css"
+    integrity="sha512-NaaXI5f4rdmlThv3ZAVS44U9yNWJaUYWzPhvlg5SC7nMRvQYV9suauRK3gVbxh7qjE33ApTPD+hkOW78VSHyeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/style/main.css">
+  <link rel="stylesheet" href="assets/style/style.css">
+  <title>vendor</title>
+</head>
+
+<body>
+  <!-- SECTION -->
+  <header class="container-fluid">
+    <section class="row p-5 bg-dark text-light">
+      <div class="col-12 d-flex justify-content-between">
+        <h1>Vendr</h1>
+        <div class="d-flex justify-content-center align-items-center">
+          <h3>Total Money: $</h3>
+          <div id="totalMoney" class="fs-2 ps-1"></div>
+        </div>
+        <button onclick="app.MoneyController.addMoney()" class="btn btn-success">Add $0.25</button>
+      </div>
+    </section>
+  </header>
+
+  <!-- SECTION -->
+  <main id="container-fluid">
+    <section class="row d-flex p-3" id='snackTemplate'>
+      <!-- <div class="bg-secondary text-center">
+          <img class="chips-img pt-1"
+            src="https://images.unsplash.com/photo-1613919113640-25732ec5e61f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2hpcHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+            alt="">
+          <p>Chips</p>
+          <p>Price:$2.00</p>
+          <button class="btn btn-success p-1 mb-2" onclick="app.SnacksController.buySnack()">Buy Chips</button>
+        </div> -->
+    </section>
+
+
+
+  </main>
+
+  <!-- SECTION -->
+  <footer class="bg-dark text-light">
+    <div class="text-center no-select">
+      <p class="mb-0"><small>Made with 💖 by CodeWorks</small></p>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.3.10/dist/sweetalert2.all.min.js"
+    integrity="sha256-hw7v8jZF/rFEdx1ZHepT4D73AFTHLu/P9kEyrNesRyc=" crossorigin="anonymous"></script>
+  <script src="app/App.js" type="module"></script>
+
+</body>
+
+</html>
